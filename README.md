@@ -18,4 +18,4 @@ import re
 import os
 from datetime import datetime
 
-## Tested with several cound of tweets ranging from 100 - 10000 (approx), used the twitter api to get the tweets into the input file.
+Tested with several cound of tweets ranging from 100 - 10000 (approx), used the twitter api to get the tweets into the input file.
