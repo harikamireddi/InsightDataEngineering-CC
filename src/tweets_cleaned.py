@@ -15,7 +15,7 @@ def getTweet(full_tweet):
         raw_tweet = json.loads(full_tweet)
     except ValueError as e:
         return e
-
+#Checking for unicodes and removing them to process a cleaned tweet
     if 'text' in raw_tweet:
         if re.search(r'[^\x00-\x7f]', raw_tweet['text']):
             UNICODED_TWT.append(raw_tweet['id'])
